@@ -1,0 +1,676 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .max{
+        height: 10000px;
+        background-color: #f4f5f7;
+    }
+    .box{
+        height: 100px;
+        background-color: #f3f5f7;
+    }
+    .box:after{
+     	content:"";
+     	display: block;
+     	height: 0;
+     	clear: both;
+     	visibility: hidden;
+     }
+    .box .str{
+        float:left;
+        height: 100px;
+        width: 200px;
+        margin-left: 200px;
+    }
+    .box .str img{
+        height: 50px;
+        width: 200px;
+        margin: 20px 0;
+    }
+    .box ul{
+        float: left;
+        height: 100px;
+        weight: 254px;
+        margin: 0 70px;
+    }
+    .box ul li{
+        float: left;
+        height: 100px;
+        weight: 100px;
+        list-style: none;
+        margin:0;
+    }
+    .box ul li a{
+        display: inline-block;
+        font-size: 18px;
+        line-height: 100px;
+        padding: 0 12px;
+        text-decoration: none;
+        color: #000000;
+    }
+    .box ul li a:hover{
+        height: 70px;
+        border-bottom: 2px solid #094cdd;
+    }
+    .box input{
+        float: left;
+        display: block;
+        height: 40px;
+        width: 360px;
+        color: #757575;
+        font-size: 16px;
+        border: 2px solid #00a4ff;
+        margin: 30px 0 30px 350px;
+    }
+    .box .t{
+        float: left;
+        height: 44px;
+        width: 44px;
+        margin: 30px 0;
+    }
+    .box span{
+        float: left;
+        height: 100px;
+        margin-left: 45px;
+    }
+    .box span .img{
+        float: left;
+        height: 40px;
+        width: 40px;
+        margin: 30px 0;
+    }
+    .box span strong{
+        float: left;
+        height: 100px;
+        width: 100px;
+        font-weight: 400;
+    }
+    .box span .a{
+        line-height: 100px;
+        text-decoration:none;
+        font-size: 18px;
+        color: #666666;
+        margin: 0 20px;
+        font-family: Times New Roman;
+    }
+    .top{
+        height: 420px;
+        background-image: url(image/PHP基础视频.jpg);
+        background-repeat: no-repeat;
+        margin: 0 10px;
+    }
+    .top ul{
+        float: left;
+        height: 416px;
+        width: 190px;
+        margin-left: 360px;
+        background: rgba(0,0,0,0.25);
+    }
+    .top ul li{
+        list-style: none;
+        width: 190px;
+        height: 46px;
+    }
+    .top ul li a{
+        font-size: 14px;
+        text-decoration: none;
+        color: #ffffff;
+        line-height: 46px;
+        padding-left:20px;
+    }
+    .top ul li img{
+        height: 10px;
+        width: 8px;
+        margin-left: 80px;
+    }
+    .top ul li .t1{
+        height: 10px;
+        width: 8px;
+        margin-left: 40px;
+    }
+    .top ul li .t2{
+        height: 10px;
+        width: 8px;
+        margin-left: 66px;
+    }
+    .top ul li .t33{
+        height: 10px;
+        width: 8px;
+        margin-left: 92px;
+    }
+    .top ul li .t4{
+        height: 10px;
+        width: 8px;
+        margin-left: 108px;
+    }
+    .top ul li a:hover{
+        display: inline-block;
+        height: 40px;
+        width: 170px;
+        background-color: #0483dd;
+    }
+    .tj{
+        width: 1200px;
+        height: 60px;
+        margin-top: 10px;
+        background-color: #ffffff;
+        margin-left: 370px;
+        box-shadow: -10px 10px 10px -4px rgba(0,0,0,0.1);
+    }
+    .tj ul{
+        float: left;
+    }
+    .tj li{
+        display: inline-block;
+        width: 125px;
+        height: 20px;
+        list-style: none;
+        margin: 20px 0;
+        border-right: 2px solid pink;
+        text-align: center;
+    }
+    .tj .l2{
+        display: inline-block;
+        width: 125px;
+        height: 20px;
+        list-style: none;
+        margin: 20px 0;
+        text-align: center;
+        border: 0;
+    }
+    .tj .l3{
+        float: left;
+        width: 85px;
+        height: 35px;
+        border: 0;
+        text-decoration: none;
+        font-size: 14px;
+        color:#18acfd;
+        margin: 20px 0 0 160px;
+    }
+    .tj .l1 a{
+        text-decoration:none;
+        color: #0ca5fe;
+        font-size: 18px;
+    }
+    .tj li a{
+        text-decoration:none;
+        color: #313131;
+        font-size: 18px;
+    }
+    h3{
+        display: inline-block;
+        font-weight: 400;
+        margin: 25px 0 12px 27px;
+    }
+    .ce{
+        float: left;
+        width: 185px;
+        height: 429px;
+        margin: 323px 0 0 160px;
+        border: 0;
+        background-color: #ffffff;
+    }
+    .ce a{
+        display: block;
+        font-size: 14px;
+        font-family: 微软雅黑;
+        color: #0c0c0c;
+        text-decoration: none;
+        margin: 18.5px 0 18.5px 26px;
+    }
+    .ce .a1{
+        color:#29b3fd;
+    }
+    .picture{
+        position: relative;
+        width: 1200px;
+        height: 572px;
+        margin-left: 370px;
+    }
+    .picture .t{
+        box-shadow: -10px 10px 10px -2px rgba(0,0,0,0.1);
+    }
+    .picture li{
+        position: relative;
+        display: inline-block;
+        width: 228px;
+        height:270px;
+        margin: 8px 10px 8px 0;
+        background-color: #ffffff;
+        list-style: none;
+        border: 0;
+        padding: 0;
+    }
+    .picture li .HOT{
+        position: absolute;
+        left: 190px;
+        top: 4px;
+        width: 40px;
+        height: 20px;
+    }
+    .picture .i1{
+        display: inline-block;
+        width: 228px;
+        height:270px;
+        margin: 8px 0;
+        background-color: #ffffff;
+        list-style: none;
+        border: 0;
+        padding: 0;
+    }
+    .picture li img{
+        width: 228px;
+        height: 155px;
+    }
+    .picture li strong{
+        float: left;
+        height: 36px;
+        font-weight: 400;
+        font-size: 14px;
+        margin:16px 20px 10px 25px;
+    }
+    .picture li ins{
+        float: left;
+        text-decoration: none;
+        margin:0 8px 0 25px;
+        font-size: 12px;
+        color:#ff7c2c;
+    }
+    .picture li em{
+        float: left;
+        font-style: normal;
+        font-size: 12px;
+        margin: 0 8px 0 8px;
+        color: #acacac;
+    }
+    .picture li .d{
+        float:left;
+        width: 3px;
+        height: 3px;
+        margin: 8px 2px 0 2px;
+    }
+    .hot{
+        display: inline-block;
+        width: 525px;
+        height: 57px;
+        margin-left: 325px;
+        padding: 0;
+    }
+    .hot li{
+        display: inline-block;
+        list-style: none;
+        font-size: 16px;
+        margin: 25px 32px 17px 32px;
+        color: #89898a;
+    }
+    .hot .gate{
+        color: #01a4fe;
+    }
+    .any{
+        margin-left:192px;
+        font-size: 12px;
+        color: #a6a6a6;
+    }
+    .into{
+        width: 1230px;
+        height: 393px;
+        margin-left: 370px;
+    }
+    .into img{
+        float: left;
+        width: 228px;
+        height:393px;
+        margin-right: 16px;
+    }
+    .into span{
+        float: left;
+        width: 976px;
+        height: 393px;
+    }
+    .into span img{
+        display: block;
+        height: 100px;
+        width: 958px;
+        margin-bottom: 23px;
+    }
+    .into span ul{
+        width: 958px;
+        height: 270px;
+    }
+    .into span ul li{
+        display: inline-block;
+        width: 228px;
+        height:270px;
+        margin-right: 10px;
+        background-color: #ffffff;
+        list-style: none;
+        border: 0;
+        padding: 0;
+    }
+    .into span ul img{
+        width: 228px;
+        height: 155px;
+        margin: 0;
+    }
+    .into span ul li strong{
+        float: left;
+        height: 36px;
+        font-weight: 400;
+        font-size: 14px;
+        margin:20px 20px 10px 25px;
+    }
+    .into span ul li .side{
+        margin: 20px 40px 10px 25px;
+    }
+    .into span ul li ins{
+        float: left;
+        text-decoration: none;
+        margin:0 8px 0 25px;
+        font-size: 12px;
+        color:#ff7c2c;
+    }
+    .into span ul li em{
+        float: left;
+        font-style: normal;
+        font-size: 12px;
+        margin: 0 8px 0 8px;
+        color: #acacac;
+    }
+    .into span ul li .d{
+        float:left;
+        width: 3px;
+        height: 3px;
+        margin: 8px 2px 0 2px;
+    }
+    .into span ul .Co{
+        margin:0;
+    }
+    .t3{
+        display: inline-block;
+        font-weight: 400;
+        margin: 32px 0 12px 370px;
+    }
+    .data{
+        display: inline-block;
+        width: 525px;
+        height: 57px;
+        margin-left: 309px;
+        padding: 0;
+    }
+    .data li{
+        display: inline-block;
+        list-style: none;
+        font-size: 16px;
+        margin: 25px 32px 17px 32px;
+        color: #89898a;
+    }
+    .data .gate{
+        color: #01a4fe;
+    }
+    .machine{
+        display: inline-block;
+        width: 525px;
+        height: 57px;
+        margin-left: 272px;
+        padding: 0;
+    }
+    .machine li{
+        display: inline-block;
+        list-style: none;
+        font-size: 16px;
+        margin: 25px 32px 17px 32px;
+        color: #89898a;
+    }
+    .machine .gate{
+        color: #01a4fe;
+    }
+    .engineer{
+        width: 1230px;
+        height: 270px;
+        margin-left: 370px;
+    }
+    .engineer li{
+        display: inline-block;
+        width: 228px;
+        height:270px;
+        margin-right: 10px;
+        background-color: #ffffff;
+        list-style: none;
+        border: 0;
+        padding: 0;
+    }
+    .engineer img{
+        width: 228px;
+        height: 155px;
+        margin: 0;
+    }
+    .engineer li strong{
+        float: left;
+        height: 36px;
+        font-weight: 400;
+        font-size: 14px;
+        margin:20px 20px 10px 25px;
+    }
+    .engineer li .side{
+        margin: 20px 40px 10px 25px;
+    }
+    .engineer li ins{
+        float: left;
+        text-decoration: none;
+        margin:0 8px 0 25px;
+        font-size: 12px;
+        color:#ff7c2c;
+    }
+    .engineer li em{
+        float: left;
+        font-style: normal;
+        font-size: 12px;
+        margin: 0 8px 0 8px;
+        color: #acacac;
+    }
+    .engineer li .d{
+        float:left;
+        width: 3px;
+        height: 3px;
+        margin: 8px 2px 0 2px;
+    }
+    .engineer .Co{
+        margin:0;
+    }
+    .recommend{
+        display: inline-block;
+        font-weight: 400;
+        margin: 25px 0 12px 370px;
+    }
+    .people{
+        display: block;
+        width: 1230px;
+        height: 320px;
+        margin-left: 370px;
+    }
+    .people li{
+        position: relative;
+        display: inline-block;
+        width: 228px;
+        height: 320px;
+        margin-right: 10px;
+        background-color: #ffffff;
+        list-style: none;
+        border: 0;
+        padding: 0;
+    }
+    .people li img{
+        position: absolute;
+        top: 10px;
+        left: 147px;
+        width: 84px;
+        height: 20px;
+    }
+    .you{
+        display: inline-block;
+        width: 470px;
+        height: 320px;
+        margin: 30px 9px 0 370px;
+        background-color: #ffffff;
+    }
+    .push{
+        display: inline-block;
+        width: 730px;
+        height: 320px;
+        margin-top: 30px;
+    }
+    .push li{
+        display: inline-block;
+        width: 228px;
+        height: 320px;
+        margin-right: 10px;
+        background-color: #ffffff;
+        list-style: none;
+        border: 0;
+        padding: 0;
+    }
+    .people .p1{
+        background-image: url(image/people/丘成桐.jpg);
+    }
+    .people .p2{
+        background-image: url(image/people/陈省身.jpg);
+    }
+    .people .p3{
+        background-image: url(image/people/华罗庚.jpg);
+    }
+    .people .p4{
+        background-image: url(image/people/牛顿.jpg);
+    }
+    .people .p5{
+        background-image: url(image/people/高斯.jpg);
+    }
+    .push .p6{
+        background-image: url(image/people/阿基米德.jpg);
+    }
+    .push .p7{
+        background-image: url(image/people/欧拉.jpg);
+    }
+    .push .p8{
+        background-image: url(image/people/费马.jpg);
+
+    }
+    .people li span,.push li span{
+        float: left;
+        width: 228px;
+        height: 120px;
+        margin-top: 200px;
+        background: rgba(0,0,0,0.4);
+    }
+    .people .p2 span{
+        float: left;
+        width: 228px;
+        height: 320px;
+        border: 0;
+        margin: 0;
+        background: rgba(0,0,0,0.4);
+    }
+    .people .p2 span h3{
+        display: inline-block;
+        margin: 112px 0 0 27px;
+        font-weight: 550;
+        color: #fffffe;
+    }
+    .people .p2 span ins{
+        display: inline-block;
+        font-size: 14px;
+        margin: 117px 0 0 14px;
+        color: #fffffe;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .people .p2 span del{
+        display: block;
+        text-decoration: none;
+        color: #fffffe;
+        font-size: 14px;
+        margin: 3px 0 16px 27px;
+    }
+    .people li span h3,.push li span h3{
+        display: inline-block;
+        margin: 20px 0 0 27px;
+        font-weight: 550;
+        color: #fffffe;
+    }
+    .people li span ins,.push li span ins{
+        display: inline-block;
+        font-size: 14px;
+        margin: 25px 0 0 14px;
+        color: #fffffe;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .people li span em,.push li span em{
+        display: block;
+        font-size: 12px;
+        color: #fffffe;
+        font-style: normal;
+        line-height: 20px;
+        margin: 7px 28px 0 27px;
+    }
+    .end{
+        height: 290px;
+        margin-top: 100px;
+        background-color: #ffffff;
+    }
+    .end span{
+        float: left;
+        height:290px;
+        width: 450px;
+        margin-left: 385px;
+    }
+    .end span img{
+        width: 200px;
+        height: 45px;
+        margin: 32px 0 18px 0;
+    }
+    .end span strong{
+        display: inline-block;
+        font-weight: 350;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .end span p{
+        width: 120px;
+        height: 35px;
+        margin-top: 15px;
+        border: 1px solid #1aacfe;
+    }
+    .end span a{
+        display: block;
+        font-size: 16px;
+        color: #00a4fe;
+        margin: 6px 0 0 25px;
+        text-decoration: none;
+    }
+    .end ul{
+        float: left;
+        width: 100px;
+        height: 290px;
+        margin-left: 200px;
+        padding: 0;
+        border: 0;
+    }
+    .end ul li h4{
+        font-size: 17px;
+        font-weight: 400;
+        margin: 32px 0 12px 0;
+    }
+    .end ul li{
+        display: block;
+        list-style: none;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .end .new{
+        margin-left: 135px;
+    }
+    .end .new1{
+        margin-left: 120px;
+    }
